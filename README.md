@@ -2,6 +2,7 @@ xposed_base_mod
 ===============
 
 1. パッケージ名の変更
+
 AndroidManifest.xmlを開き、
 
 package=”com.wedy.twitrans”
@@ -39,6 +40,7 @@ package com.wedy.twitrans;
 これでパッケージ名の変更ができました。
 
 2. 変更するリソースの指定
+
 続いてXposedモジュールの核となるNotificationiconPatcher.javaの中身を書き換えます。
 
 private static final String PACKAGE_ESF = “org.mariotaku.twidere”;
@@ -98,6 +100,7 @@ resparam.res.setReplacement(PACKAGE_ESF, “string”, “***”, modRes.fwd(R.s
  
 
 3. モジュールの名前と説明を入力
+
 /res/values/strings.xml
 
 にある
