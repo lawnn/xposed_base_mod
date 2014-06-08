@@ -1,4 +1,4 @@
-xposed_base_bod
+xposed_base_mod
 ===============
 
 1. パッケージ名の変更
