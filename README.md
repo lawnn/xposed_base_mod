@@ -56,9 +56,9 @@ private static final String PACKAGE_ESF = “org.mariotaku.twidere”;
 resparam.res.setReplacement(PACKAGE_ESF, “string”, “multi_select”, modRes.fwd(R.string.multi_select));
 は
 
-Twidere(org.mariotaku.twidere)の”strings.xml”にある”<string name=”multi_select”>”を、
+Twidere(org.mariotaku.twidere)の”strings.xml”にある”< string name=”multi_select”>”を、
 
-Xposedモジュール内の”res/values/strings.xml”にある”<string name=”multi_select”>”で置き換える、という意味です。
+Xposedモジュール内の”res/values/strings.xml”にある”< string name=”multi_select”>”で置き換える、という意味です。
 
  
 
@@ -96,7 +96,7 @@ resparam.res.setReplacement(PACKAGE_ESF, “string”, “***”, modRes.fwd(R.s
 
 元々あるファイル(arrays.xmlやplurals.xml)や文字列はTwidere翻訳用なので適宜削除してください。
 
-このとき、strings.xmlの<string name=”app_name”>と<string name=”app_description”>はモジュールの名前と説明の表示に必要なので削除しないようにしてください。
+このとき、strings.xmlの< string name=”app_name”>と< string name=”app_description”>はモジュールの名前と説明の表示に必要なので削除しないようにしてください。
 
  
 /_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
@@ -106,12 +106,12 @@ resparam.res.setReplacement(PACKAGE_ESF, “string”, “***”, modRes.fwd(R.s
 
 にある
 
-<string name=”app_name”>Twidere Translator for JPN</string>
+< string name=”app_name”>Twidere Translator for JPN< /string>
 
-<string name=”app_description”>Fix Japanese translation of Twidere</string>
+< string name=”app_description”>Fix Japanese translation of Twidere< /string>
 を 自分のモジュールの名前に書き換えます。
 
-<string name=”app_name”>はモジュール名、<string name=”app_description”>はXposedインストーラのモジュールリストで表示する説明です。
+< string name=”app_name”>はモジュール名、<string name=”app_description”>はXposedインストーラのモジュールリストで表示する説 明です。
 
 /res/values-ja/string.xmlは日本語環境での表示に使うものなので、同様に編集しUTF-8で保存してください。
 
